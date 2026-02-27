@@ -44,7 +44,7 @@ jobs:
       
       - name: Upload Allure Results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results-smoke
           path: target/allure-results
@@ -52,7 +52,7 @@ jobs:
       
       - name: Upload Allure Report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-report-smoke
           path: target/site/allure-maven-plugin
@@ -60,7 +60,7 @@ jobs:
       
       - name: Upload ExtentReports
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: extent-reports-smoke
           path: target/reports
@@ -68,7 +68,7 @@ jobs:
       
       - name: Upload Test Logs
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-logs-smoke
           path: target/logs
@@ -107,7 +107,7 @@ jobs:
       
       - name: Upload Allure Results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results-regression
           path: target/allure-results
@@ -115,7 +115,7 @@ jobs:
       
       - name: Upload Allure Report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-report-regression
           path: target/site/allure-maven-plugin
@@ -123,7 +123,7 @@ jobs:
       
       - name: Upload ExtentReports
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: extent-reports-regression
           path: target/reports
@@ -131,7 +131,7 @@ jobs:
       
       - name: Upload Test Logs
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-logs-regression
           path: target/logs
