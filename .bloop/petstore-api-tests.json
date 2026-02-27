@@ -1,0 +1,1074 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "petstore-api-tests",
+        "directory": "/Users/akhilsrinivas.anantharajan/CascadeProjects/RestAssured-API-Forge",
+        "workspaceDir": "/Users/akhilsrinivas.anantharajan/CascadeProjects/RestAssured-API-Forge",
+        "sources": [
+            
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/akhilsrinivas.anantharajan/CascadeProjects/RestAssured-API-Forge/target/classes",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-testng/2.27.0/allure-testng-2.27.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar",
+            "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.23.1/log4j-slf4j2-impl-2.23.1.jar"
+        ],
+        "out": "/Users/akhilsrinivas.anantharajan/CascadeProjects/RestAssured-API-Forge/target",
+        "classesDir": "/Users/akhilsrinivas.anantharajan/CascadeProjects/RestAssured-API-Forge/target/classes",
+        "resources": [
+            "/Users/akhilsrinivas.anantharajan/CascadeProjects/RestAssured-API-Forge/src/main/resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "17",
+                "-source",
+                "17",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "mill.testng.TestNGFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.reactivex.rxjava3",
+                    "name": "rxjava",
+                    "version": "3.1.6",
+                    "artifacts": [
+                        {
+                            "name": "rxjava",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar"
+                        },
+                        {
+                            "name": "rxjava",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "btf",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "btf",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar"
+                        },
+                        {
+                            "name": "btf",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.testng",
+                    "name": "testng",
+                    "version": "7.10.2",
+                    "artifacts": [
+                        {
+                            "name": "testng",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar"
+                        },
+                        {
+                            "name": "testng",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "rest-assured-common",
+                    "version": "5.5.0",
+                    "artifacts": [
+                        {
+                            "name": "rest-assured-common",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar"
+                        },
+                        {
+                            "name": "rest-assured-common",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars",
+                    "name": "jquery",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "jquery",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar"
+                        },
+                        {
+                            "name": "jquery",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "json-path",
+                    "version": "5.5.0",
+                    "artifacts": [
+                        {
+                            "name": "json-path",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar"
+                        },
+                        {
+                            "name": "json-path",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-test-filter",
+                    "version": "2.27.0",
+                    "artifacts": [
+                        {
+                            "name": "allure-test-filter",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-test-filter/2.27.0/allure-test-filter-2.27.0.jar"
+                        },
+                        {
+                            "name": "allure-test-filter",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-test-filter/2.27.0/allure-test-filter-2.27.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.10.1",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.26.1",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-slf4j2-impl",
+                    "version": "2.23.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-slf4j2-impl",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.23.1/log4j-slf4j2-impl-2.23.1.jar"
+                        },
+                        {
+                            "name": "log4j-slf4j2-impl",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.23.1/log4j-slf4j2-impl-2.23.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.beust",
+                    "name": "jcommander",
+                    "version": "1.82",
+                    "artifacts": [
+                        {
+                            "name": "jcommander",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar"
+                        },
+                        {
+                            "name": "jcommander",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.5.13",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "uri-template",
+                    "version": "0.10",
+                    "artifacts": [
+                        {
+                            "name": "uri-template",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar"
+                        },
+                        {
+                            "name": "uri-template",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "json-schema-validator",
+                    "version": "5.5.0",
+                    "artifacts": [
+                        {
+                            "name": "json-schema-validator",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar"
+                        },
+                        {
+                            "name": "json-schema-validator",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "json-schema-validator",
+                    "version": "2.2.14",
+                    "artifacts": [
+                        {
+                            "name": "json-schema-validator",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar"
+                        },
+                        {
+                            "name": "json-schema-validator",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vaadin.external.google",
+                    "name": "android-json",
+                    "version": "0.0.20131108.vaadin1",
+                    "artifacts": [
+                        {
+                            "name": "android-json",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"
+                        },
+                        {
+                            "name": "android-json",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ccil.cowan.tagsoup",
+                    "name": "tagsoup",
+                    "version": "1.2.1",
+                    "artifacts": [
+                        {
+                            "name": "tagsoup",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar"
+                        },
+                        {
+                            "name": "tagsoup",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.11",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.mail",
+                    "name": "mailapi",
+                    "version": "1.6.2",
+                    "artifacts": [
+                        {
+                            "name": "mailapi",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar"
+                        },
+                        {
+                            "name": "mailapi",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.17.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.23.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.2",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "xml-path",
+                    "version": "5.5.0",
+                    "artifacts": [
+                        {
+                            "name": "xml-path",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar"
+                        },
+                        {
+                            "name": "xml-path",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.jopt-simple",
+                    "name": "jopt-simple",
+                    "version": "5.0.4",
+                    "artifacts": [
+                        {
+                            "name": "jopt-simple",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                        },
+                        {
+                            "name": "jopt-simple",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.groovy",
+                    "name": "groovy",
+                    "version": "4.0.22",
+                    "artifacts": [
+                        {
+                            "name": "groovy",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar"
+                        },
+                        {
+                            "name": "groovy",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "msg-simple",
+                    "version": "1.2",
+                    "artifacts": [
+                        {
+                            "name": "msg-simple",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar"
+                        },
+                        {
+                            "name": "msg-simple",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.groovy",
+                    "name": "groovy-json",
+                    "version": "4.0.22",
+                    "artifacts": [
+                        {
+                            "name": "groovy-json",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar"
+                        },
+                        {
+                            "name": "groovy-json",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "rest-assured",
+                    "version": "5.5.0",
+                    "artifacts": [
+                        {
+                            "name": "rest-assured",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar"
+                        },
+                        {
+                            "name": "rest-assured",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "jackson-coreutils-equivalence",
+                    "version": "1.0",
+                    "artifacts": [
+                        {
+                            "name": "jackson-coreutils-equivalence",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar"
+                        },
+                        {
+                            "name": "jackson-coreutils-equivalence",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.17.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aventstack",
+                    "name": "extentreports",
+                    "version": "5.1.2",
+                    "artifacts": [
+                        {
+                            "name": "extentreports",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar"
+                        },
+                        {
+                            "name": "extentreports",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.5",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-java-commons",
+                    "version": "2.27.0",
+                    "artifacts": [
+                        {
+                            "name": "allure-java-commons",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar"
+                        },
+                        {
+                            "name": "allure-java-commons",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.skyscreamer",
+                    "name": "jsonassert",
+                    "version": "1.5.3",
+                    "artifacts": [
+                        {
+                            "name": "jsonassert",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar"
+                        },
+                        {
+                            "name": "jsonassert",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.groovy",
+                    "name": "groovy-xml",
+                    "version": "4.0.22",
+                    "artifacts": [
+                        {
+                            "name": "groovy-xml",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar"
+                        },
+                        {
+                            "name": "groovy-xml",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mozilla",
+                    "name": "rhino",
+                    "version": "1.7.7.2",
+                    "artifacts": [
+                        {
+                            "name": "rhino",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar"
+                        },
+                        {
+                            "name": "rhino",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.17.1",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpmime",
+                    "version": "4.5.13",
+                    "artifacts": [
+                        {
+                            "name": "httpmime",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar"
+                        },
+                        {
+                            "name": "httpmime",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest",
+                    "version": "2.2",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar"
+                        },
+                        {
+                            "name": "hamcrest",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.googlecode.libphonenumber",
+                    "name": "libphonenumber",
+                    "version": "8.11.1",
+                    "artifacts": [
+                        {
+                            "name": "libphonenumber",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar"
+                        },
+                        {
+                            "name": "libphonenumber",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-model",
+                    "version": "2.27.0",
+                    "artifacts": [
+                        {
+                            "name": "allure-model",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar"
+                        },
+                        {
+                            "name": "allure-model",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.projectlombok",
+                    "name": "lombok",
+                    "version": "1.18.32",
+                    "artifacts": [
+                        {
+                            "name": "lombok",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar"
+                        },
+                        {
+                            "name": "lombok",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.qameta.allure",
+                    "name": "allure-testng",
+                    "version": "2.27.0",
+                    "artifacts": [
+                        {
+                            "name": "allure-testng",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-testng/2.27.0/allure-testng-2.27.0.jar"
+                        },
+                        {
+                            "name": "allure-testng",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/io/qameta/allure/allure-testng/2.27.0/allure-testng-2.27.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.freemarker",
+                    "name": "freemarker",
+                    "version": "2.3.32",
+                    "artifacts": [
+                        {
+                            "name": "freemarker",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar"
+                        },
+                        {
+                            "name": "freemarker",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "json-schema-core",
+                    "version": "1.2.14",
+                    "artifacts": [
+                        {
+                            "name": "json-schema-core",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar"
+                        },
+                        {
+                            "name": "json-schema-core",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.java-json-tools",
+                    "name": "jackson-coreutils",
+                    "version": "2.0",
+                    "artifacts": [
+                        {
+                            "name": "jackson-coreutils",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar"
+                        },
+                        {
+                            "name": "jackson-coreutils",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "33.2.1-jre",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.11",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.13",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-core",
+                    "version": "2.23.1",
+                    "artifacts": [
+                        {
+                            "name": "log4j-core",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+                        },
+                        {
+                            "name": "log4j-core",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.42.0",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/Users/akhilsrinivas.anantharajan/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

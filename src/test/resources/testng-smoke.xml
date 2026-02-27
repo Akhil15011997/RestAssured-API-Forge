@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Petstore API Smoke Test Suite" verbose="1">
+    
+    <listeners>
+        <listener class-name="com.example.base.BaseTest"/>
+        <listener class-name="com.example.listeners.AllureListener"/>
+    </listeners>
+    
+    <test name="Smoke Tests" group-by-instances="true">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        
+        <packages>
+            <package name="com.example.smoke"/>
+        </packages>
+    </test>
+    
+</suite>
