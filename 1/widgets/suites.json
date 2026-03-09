@@ -1,1 +1,0 @@
-{"total":2,"items":[{"uid":"a09d842bd74a080b127444af5f7565c0","name":"Petstore API Regression Test Suite","statistic":{"failed":0,"broken":1,"skipped":0,"passed":38,"unknown":0,"total":39}},{"uid":"825a0df6bfab7c0f8568387dd56fa725","name":"Petstore API Smoke Test Suite","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}
