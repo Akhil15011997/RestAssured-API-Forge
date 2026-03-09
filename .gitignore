@@ -17,6 +17,7 @@ buildNumber.properties
 *.ipr
 out/
 .idea_modules/
+.metals/
 
 # IDE - Eclipse
 .classpath
